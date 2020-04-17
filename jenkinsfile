@@ -10,9 +10,7 @@ node {
 		echo 'Building New Feature'
 	}	
     stage('Test') {
-	sh 'dotnet --version'
-	sh 'dotnet ConsoleApp1'
-	echo 'Building New Feature'
+	echo 'Testing New Feature'
     }
     stage('Deploy') {
         echo 'Deploying....'
